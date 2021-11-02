@@ -119,7 +119,7 @@ async def aria2_add_magnet(session, user_id, link, timeout=0):
                 if not (ex.error_code == 1 and ex.error_message == f'Active Download not found for GID#{gid}'):
                     raise
 
-async def aria2_add_directdl(session, user_id, link, filename=None, timeout=60):
+async def aria2_add_directdl(session, user_id, link, filename=None, timeout=0):
     dir = os.path.join(
         os.getcwd(),
         str(user_id),
