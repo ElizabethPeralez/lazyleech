@@ -31,9 +31,8 @@ This is a telegram bot writen with pyrogram for leeching files on the internet t
 - Advanced ytdl
 - Docker support.
 
-# Deployment
-## Heroku
-<p><a href="https://heroku.com/deploy?template=https://github.com/reaitten/lazyleech"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+
+
 
 ## Bot Commands
 
